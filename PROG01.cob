@@ -1,0 +1,13 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PROG01.
+      **************************************
+      * AREA DE COMENTÁRIOS - REMARKS
+      * AUTHOR = LUAN DE OLIVEIRA MAGALHÃES
+      * OBJETIVO: MOSTRAR A STRING  HELLLO ALURA
+      * DATA = 21/01/2021
+      *
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       PROCEDURE DIVISION.
+           DISPLAY 'HELLO ALURA'.
+           STOP RUN.
