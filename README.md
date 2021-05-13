@@ -1,3 +1,22 @@
+
+O que é permitido em cada coluna no cobol
+
+- coluna de 1 a 6: Área livre - remarks.
+- coluna 7: Área de indicação * comentário - continuação de linha.
+- colunas de 8 a 11: Área A: divisões, seções, parágrafos, declaração de variáveis.
+- colunas de 12 a 72: Área B: comandos.
+- colunas de 73 a 80: Numeração interna do cobol.
+
+
+O cobol possui 4 divisões
+
+- IDENTIFICATION DIVISION: precisa ser escrita na coluna 8, ela precisa conter o nome do programa, o author é opcional
+- ENVIRONMENT DIVISION: define o ambiente, podemos colocar que o cobol aceitara vírgulas como padrão nessa área de configuração do ambiente.
+- DATA DIVISION: começa também na coluna 8 e dentro dessa secção temos 3 sessões: FILE SECTION: são variáveis que vão se relacionar com os arquivos, WORKING-STORAGE SECTION: trata de variáveis públicas e locais e por fim LINKAGE SECTION: secção que usamos para trocar variáveis entre programas, um programa chama o outro, na hora que um programa chama o outro, troca o valor
+- PROCEDURE DIVISION: divisão da regra de negócio, tendo o que o programa deve fazer.
+
+
+
 caracteres de formatação de variáveis 
 
 
@@ -14,3 +33,4 @@ $	One $ character code can appear on leftmost position of a picture clause. Exam
 . (period)	This character is used to represent decimal position in a numeric value. Example: PIC 9(4).9(2).
 
 , (comma)	This character code is used to display amount values. Example: PIC ZZZ9,99,99.
+
