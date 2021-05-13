@@ -15,6 +15,13 @@ O cobol possui 4 divisões
 - DATA DIVISION: começa também na coluna 8 e dentro dessa secção temos 3 sessões: FILE SECTION: são variáveis que vão se relacionar com os arquivos, WORKING-STORAGE SECTION: trata de variáveis públicas e locais e por fim LINKAGE SECTION: secção que usamos para trocar variáveis entre programas, um programa chama o outro, na hora que um programa chama o outro, troca o valor
 - PROCEDURE DIVISION: divisão da regra de negócio, tendo o que o programa deve fazer.
 
+Declaração de variáveis 
+
+- PIC A: aceita somente letras.
+- PIC X: aceita números e letras 
+- PIC 9: aceita somente números
+
+
 
 
 caracteres de formatação de variáveis 
