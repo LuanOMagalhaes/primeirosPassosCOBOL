@@ -7,6 +7,15 @@ O que é permitido em cada coluna no cobol
 - colunas de 12 a 72: Área B: comandos.
 - colunas de 73 a 80: Numeração interna do cobol.
 
+Hierarquia de um programa cobol
+
+
+1. PROGRAMA COBOL
+ 1.1 DIVISION
+  1.1.1 SECTION
+    1.1.1.1 PARÁGRAPH
+      1.1.1.1.1 SENTENCE
+        1.1.1.1.1.1 STATEMENT
 
 O cobol possui 4 divisões
 
