@@ -1,11 +1,10 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PROG01.
-      **************************************
-      * AREA DE COMENTÁRIOS - REMARKS
-      * AUTHOR = LUAN DE OLIVEIRA MAGALHÃES
-      * OBJETIVO: MOSTRAR A STRING  HELLLO ALURA
-      * DATA = 21/01/2021
-      *
+      ****************************
+      * AREA DE COMENTARIOS - REMARKS
+      * AUTHOR DO PROGRAMA = LUAN MAGALHÃES
+      * DATA: 29/01/2021 E 19/02/2022
+      ****************************
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        PROCEDURE DIVISION.
