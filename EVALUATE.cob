@@ -7,6 +7,9 @@
       * IF/ELSE/ENDIF
       * DATA = 22/01/2021
        ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+       SPECIAL-NAMES.
+           DECIMAL-POINT IS COMMA.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        77 WRK-NM1 PIC 9(03) VALUE ZEROS.
@@ -23,7 +26,7 @@
                    DISPLAY 'APROVADO - BONUS'
                WHEN 6 THRU 9
                    DISPLAY 'APROVADO'
-               WHEN 2 THRU 5
+               WHEN 2 THRU 5,5
                    DISPLAY 'RECUPERACAO'
               WHEN OTHER
                    DISPLAY 'REPROVADO'
