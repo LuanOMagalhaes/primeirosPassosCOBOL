@@ -39,6 +39,7 @@
 
 
        0200-PROCESSAR.
+      * SIMULANDO UM FOR
        PERFORM VARYING WRK-CONTADOR FROM 1 BY 2
                        UNTIL WRK-CONTADOR >= 10
 
