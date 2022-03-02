@@ -50,3 +50,7 @@ $	One $ character code can appear on leftmost position of a picture clause. Exam
 
 , (comma)	This character code is used to display amount values. Example: PIC ZZZ9,99,99.
 
+
+
+OCCURS: transforma uma variável em array.
+
